@@ -50,10 +50,10 @@ class Userdata {
     ),
     Userpost(
       userimg: 'assets/person3.jfif',
-      username: 'Mike Johnson',
+      username: 'Batman',
       time: '5 hrs ago',
-      postcontent: 'Just finished a 10k run!',
-      posting: 'assets/post_mike_johnson.png',
+      postcontent: 'I am Batman!',
+      posting: 'assets/batman.jpg',
       numcomments: '3',
       numshare: '7',
       isLiked: false,
@@ -61,10 +61,10 @@ class Userdata {
     ),
     Userpost(
       userimg: 'assets/person4.jfif',
-      username: 'Johnson Stewart',
+      username: 'Jungkok',
       time: '5 hrs ago',
-      postcontent: 'Just finished a 10k run!',
-      posting: 'assets/post_johnson_stewart.png',
+      postcontent: 'la peace!',
+      posting: 'assets/lapis.jpg',
       numcomments: '3',
       numshare: '7',
       isLiked: false,
@@ -73,12 +73,12 @@ class Userdata {
   ];
 
   List<Friend> friendList = [
-    Friend(img: 'assets/friend_alice.png', name: 'Alice'),
-    Friend(img: 'assets/friend_bob.png', name: 'Bob'),
-    Friend(img: 'assets/friend_charlie.png', name: 'Charlie'),
-    Friend(img: 'assets/friend_diana.png', name: 'Diana'),
-    Friend(img: 'assets/friend_ethan.png', name: 'Ethan'),
-    Friend(img: 'assets/friend_fiona.png', name: 'Fiona'),
+    Friend(img: 'assets/1.jpg', name: 'Alice'),
+    Friend(img: 'assets/2.jpg', name: 'Bob'),
+    Friend(img: 'assets/3.jpg', name: 'Charlie'),
+    Friend(img: 'assets/4.jpg', name: 'Diana'),
+    Friend(img: 'assets/5.jpg', name: 'Ethan'),
+    Friend(img: 'assets/6.jpg', name: 'Fiona'),
   ];
 
   List<Usercomment> commentList = [
@@ -103,9 +103,9 @@ class Userdata {
   ];
 
   Account myUserAccount = Account(
-    name: 'Gabrielle Alimong',
-    email: 'gabriellealimong2gmail.com',
-    img: 'assets/gabrielle.png',
+    name: 'Red Xavier Rodrigo',
+    email: 'redxavier28@gmail.com',
+    img: 'assets/reddd.jpg',
     numFollowers: '1 Million',
     numPosts: '350',
     numFollowing: '1',

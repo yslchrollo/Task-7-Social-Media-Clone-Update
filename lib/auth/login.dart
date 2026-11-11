@@ -36,7 +36,7 @@ class _LoginFormState extends State<LoginForm> {
       } else if (password == "") {
         errormessage = "Please input your password!";
         isError = true;
-      } else if (username != "Gab" || password != "1234") {
+      } else if (username != "redxavier" || password != "1234") {
         errormessage = "Invalid username or password!";
         isError = true;
       } else {

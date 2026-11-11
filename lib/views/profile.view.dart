@@ -31,8 +31,8 @@ class _ProfileViewState extends State<ProfileView> {
       setState(() {
         widget.userPost.comments.add(
           Usercomment(
-            commenterImg: 'assets/gabrielle.png',
-            commenterName: 'Gabrielle Alimong',
+            commenterImg: 'assets/red.png',
+            commenterName: 'Red Xavier Rodrigo',
             commentTime: 'Just now',
             commentContent: text,
           ),
@@ -201,7 +201,7 @@ class _ProfileViewState extends State<ProfileView> {
     child: Row(
       children: [
         const CircleAvatar(
-          backgroundImage: AssetImage('assets/gabrielle.png'),
+          backgroundImage: AssetImage('assets/red.png'),
           radius: 16,
         ),
         const SizedBox(width: 8),
